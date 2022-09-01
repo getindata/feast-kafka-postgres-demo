@@ -8,7 +8,7 @@ Currently, [judging by the number of GitHub stars](https://github.com/topics/fea
 
 # Demo
 
-In order to showcase Feast's capabilites I created a demo containing a sample business case with two data sources, one of which is Postgres database, and the other is a Kafka topic. Its source code is available [right here on GitHub]()
+In order to showcase Feast's capabilites I created a demo containing a sample business case with two data sources, one of which is Postgres database, and the other is a Kafka topic. Its source code is available [right here on GitHub](https://github.com/getindata/feast-kafka-postgres-demo)
 
 Let's assume a following business case - an e-commerce company offers products on their website. The company has access to data about users and their orders, which is stored in Postgres and a data stream regarding website traffic, which is ingested via Kafka topics.
 
