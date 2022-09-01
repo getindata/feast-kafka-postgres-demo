@@ -1,0 +1,14 @@
+{
+  "namespace": "com.getindata.doge",
+  "type": "record",
+  "name": "Traffic",
+  "fields": [
+    { "name": "user_id", "type": "string"},
+    { "name": "traffic_id", "type": "string"},
+    { "name": "event", "type": "string"},
+    { "name": "timestamp", "type": "long"},
+    { "name": "session_listing_page_views", "type": "long"},
+    { "name": "session_product_page_views", "type": "long"},
+    { "name": "session_photo_page_views", "type": "long"}
+  ]
+}

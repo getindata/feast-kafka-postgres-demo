@@ -1,0 +1,9 @@
+{
+  "kafka_rest_proxy": "http://localhost:8082",
+  "postgres_username": "postgres",
+  "postgres_password": "test",
+  "postgres_url": "jdbc:postgresql://localhost:5432/postgres",
+  "postgres_url_short": "localhost:5432",
+  "kafka_bootstrap": "localhost:9092",
+  "schema_registry_url": "http://localhost:8081"
+}

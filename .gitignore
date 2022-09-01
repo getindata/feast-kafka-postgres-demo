@@ -1,0 +1,7 @@
+feature_repo/data/registry.db
+feature_repo/data/online_store.db
+*.bin
+**__pycache__**
+.idea/
+.ipynb_checkpoints/
+.jython_cache/

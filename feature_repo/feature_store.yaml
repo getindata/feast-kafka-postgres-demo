@@ -1,0 +1,16 @@
+project: feast_kafka_ingestion_example
+provider: local
+online_store:
+  type: redis
+  connection_string: "localhost:6379,password="
+offline_store:
+  type: postgres
+  host: localhost
+  port: 5432
+  database: postgres
+  db_schema: public
+  user: postgres
+  password: test
+flags:
+  alpha_features: true
+  on_demand_transforms: true

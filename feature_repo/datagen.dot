@@ -1,0 +1,12 @@
+digraph G {
+    offline -> listing_page [ label="login(0.01%)" ];
+    listing_page -> offline [ label="logout(1%)" ];
+    listing_page -> product_page [ label="listing_to_product_page(9%)" ];
+    product_page -> listing_page [ label="product_to_listing_page(2%)" ];
+    product_page -> photo_page [ label="product_to_photo_page(6%)" ];
+    product_page -> order_page [ label="product_to_order_page(2%)" ];
+    photo_page -> product_page [ label="photo_to_product_page(5%)" ];
+    photo_page -> order_page [ label="photo_to_order_page(5%)" ];
+    order_page -> listing_page [ label="order_to_listing_page(50%)" ];
+    order_page -> offline [ label="order_to_offline_page(50%)" ];
+}
